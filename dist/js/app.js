@@ -3365,7 +3365,6 @@
         if (document.querySelector(".tabs__slider")) new swiper_core_Swiper(".tabs__slider", {
             modules: [ Navigation ],
             slidesPerView: "auto",
-            spaceBetween: 40,
             speed: 800,
             navigation: {
                 nextEl: ".swiper-button-next"
@@ -3376,9 +3375,6 @@
                 },
                 768: {
                     spaceBetween: 30
-                },
-                1268: {
-                    spaceBetween: 40
                 }
             },
             on: {}

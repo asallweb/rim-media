@@ -172,7 +172,7 @@ h6 {
   position: relative;
   padding-right: 60px
 }
-.tabs .tabs__slider::after {
+.tabs .tabs__slider:not(._no-bdb)::after {
   content: "";
   display: block;
   position: absolute;
